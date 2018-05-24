@@ -1,0 +1,8 @@
+site_name: Pixel
+repo_url: https://github.com/LumiteDubbz/Pixel
+theme: cinder
+pages:
+    - Index: index.md
+    - Setup: setup.md
+    - Commands: commands.md
+    - Downloads: downloads.md
