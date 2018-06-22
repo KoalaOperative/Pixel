@@ -1,38 +1,28 @@
 {
-  "name": "pixel-rewrite",
-  "version": "0.0.1",
-  "description": "An open-source Discord bot, written with: Library: Discord.js, Framework: Patron.js",
-  "main": "src/app.js",
+  "name": "pixel",
+  "version": "1.1.0",
+  "description": "An open-source Discord bot written with: { library: 'Eris', framework: 'Lava.js' }.",
+  "main": "src/index.js",
   "scripts": {
-    "lint": "eslint --fix src/**",
-    "start": "node src/app.js"
-  },
-  "engines": {
-    "node": "8.4.0"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LumiteDubbz/Pixel.git"
   },
   "keywords": [
-    "discord-js",
-    "patron-js",
+    "eris-bot",
+    "nodejs",
     "discord-bot",
-    "discord",
-    "javascript"
+    "lava-framework-bot"
   ],
-  "author": "Lumite#1234",
+  "author": "Lumite#5555",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LumiteDubbz/Pixel/issues"
   },
   "homepage": "https://github.com/LumiteDubbz/Pixel#readme",
   "dependencies": {
-    "discord.js": "^11.3.2",
-    "mongodb": "^3.0.1",
-    "patron.js": "github:vim2meta/patron.js"
-  },
-  "devDependencies": {
-    "eslint": "^4.18.1"
+    "lava.js": "^1.3.0"
   }
 }

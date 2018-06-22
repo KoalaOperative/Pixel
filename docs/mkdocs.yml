@@ -1,5 +1,5 @@
 site_name: Pixel
-repo_url: https://github.com/LumiteDubbz/Pixel
+repo_url: https://github.com/Palladium/Pixel
 theme: cinder
 pages:
     - Index: index.md

@@ -1,6 +1,5 @@
 # Logs
 *.log
-npm-debug.log*
 
 # Dependency directories
 node_modules/
@@ -16,9 +15,8 @@ node_modules/
 
 # Miscellanea
 package-lock.json
-credentials.json
+config/config.json
 .vscode/
-old_docs/
 Pixel.code-workspace
 docs/docs/
 docs/site/

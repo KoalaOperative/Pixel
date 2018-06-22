@@ -1,0 +1,10 @@
+{
+    "token": "Your bot's token.",
+    "defaultCommands": true,
+    "prefixes": [
+        "!"
+    ],
+    "ownerIds": [
+        "Your user ID goes here."
+    ]
+}
