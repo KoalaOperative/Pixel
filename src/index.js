@@ -13,10 +13,14 @@ fs.readdir(__dirname + '/commands/', (err, files) => {
     })
 });
 
-
-Client.on('ready', () => {
-    Logger.log('The bot has connected and is online!');
-    Client.editStatus('dnd', { name: 'v' + require('../package.json').version + ' | p;help', type: 3 });
+fs.readdir(__dirname + '/events/', (err, files) => {
+    if (err) return Logger.error(err);
+    files.forEach(file => {
+        let eventFunction = require(`./events/${file}`);
+        let eventName = file.split('.')[0];
+        Logger.log(`Loaded user event ${file}`);
+        Client.on(eventName, (...args) => eventFunction.run(Client, ...args));
+    });
 });
 
 Client.connect();
