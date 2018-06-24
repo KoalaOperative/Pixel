@@ -2,25 +2,25 @@ class Constants {
   constructor() {
 
     this.EMBED_COLORS = {
-      ERROR: [255, 0, 0],
+      ERROR: 0xFF0000,
       DEFAULTS: [
-        [255, 38, 154],
-        [255, 190, 17],
-        [255, 28, 142],
-        [255, 105, 180],
-        [255, 131, 250],
-        [252, 184, 41],
-        [242, 38, 255],
-        [168, 237, 0],
-        [160, 36, 237],
-        [147, 112, 219],
-        [104, 255, 34],
-        [41, 84, 255],
-        [8, 248, 255],
-        [0, 255, 0],
-        [0, 232, 255],
-        [0, 245, 255],
-        [0, 255, 127]
+        0xFF269A,
+        0xFFBE11,
+        0xFF1C8E,
+        0xFF69B4,
+        0xFF83FA,
+        0xFCB829,
+        0xF226FF,
+        0xA8ED00,
+        0xA024ED,
+        0x9370DB,
+        0x68FF22,
+        0x2954FF,
+        0x08F8FF,
+        0x00FF00,
+        0x00E8FF,
+        0x00F5FF,
+        0x00F57F
       ]
     };
 
@@ -28,7 +28,7 @@ class Constants {
       CAPITALIZE: /\w\S*/g,
     };
 
-    this.MAX_GAME_LENGTH = 128;
+    this.MAX_STATUS_LENGTH = 128;
   }
 }
 

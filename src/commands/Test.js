@@ -1,5 +1,4 @@
-const Lava = require('lava.js');
-const CommandBase = Lava.Command;
+const CommandBase = require('lava.js').Command;
 const Text = require('../extensions/Text.js');
 
 class Test extends CommandBase {
@@ -13,8 +12,7 @@ class Test extends CommandBase {
     async test(msg) {
         const text = new Text(msg, this._name);
 
-        await text.reply('Woah, I\'m alive...', { title: 'Am I alive?' });
-        return msg.channel.createMessage('There should be an embed above this message.');
+        return text.reply('Woah, I\'m alive...', { title: 'Am I alive?' });
     }
 };
 

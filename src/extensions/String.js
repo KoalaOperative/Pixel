@@ -1,6 +1,6 @@
 const Constants = require('./Constants.js');
 
-class StrintExt {
+class String {
   boldify(string) {
     return '**' + string.replace(/(\*|~|`|_)+/g, '') + '**';
   }
@@ -73,4 +73,4 @@ class StrintExt {
   }
 }
 
-module.exports = new StringExt();
+module.exports = new String();
